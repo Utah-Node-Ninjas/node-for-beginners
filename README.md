@@ -29,7 +29,42 @@ Node.js internally uses the Google V8 JavaScript engine to execute code, and a l
 Node.js is gaining adoption as a high-performance server-side platform and is notably used by Groupon, SAP, LinkedIn, Microsoft, Yahoo!, Walmart, Rakuten and PayPal.
 
 ##Why Node.js?
+- It runs Javascript, so you can use the same language on server and client, and even share some code between them (e.g. for form validation, or to render views at either end.)
+
+- The event-driven system is fast, compared to traditional Java or ROR frameworks, when handling lots of requests at once. The benchmarks for it blow older languages like PHP, Python and Ruby out of the water.
+
+- The ever-growing pool of packages, accessible via NPM, most of which are conveniently hosted on github.
+
+- It’s driven by asynchronous design. That means that it doesn’t have to wait for slow file I/O or database operations to continue processing, which makes it really damn fast (by that I mean faster than most other popular server languages / platforms). It also means that it can handle millions of concurrent connections at once.
+
+- It makes real-time applications a walk in the park. No longer do you have to bother with low-level sockets and protocols. You can make a Comet-driven real-time chat application in the same time you would have made a simple blog in PHP or a birthday cake with a ready-made mix.
+
 ##Install Node
+###Linux/Mac
+There are a lot of different ways to install Node on Unix environments. Most of them *mostly* work. But you will run into various issues with many different things if Node is not installed in a very specific way. The one that I have found the most versitile is the install provided by [NVM](https://github.com/creationix/nvm), or the Node Version Manager.
+
+Run the following command:
+```bash
+curl https://raw.githubusercontent.com/creationix/nvm/v0.17.2/install.sh | bash
+```
+Next, make sure the following is included in your ~/.bash_profile, ~/.bashrc, ~/.zshrc or ~/.profile:
+```bash
+if [ -f ~/.nvm/nvm.sh ]; then
+  export NVM_DIR=$HOME/.nvm;
+  source $HOME/.nvm/nvm.sh;
+fi
+```
+Next, run this command:
+```bash
+nvm install 0.10
+```
+And finally this:
+```bash
+nvm use 0.10 --default
+```
+Now anytime your terminal loads, node should be included and ready to roll!
+
+###Windows
 ##Direct Runtime
 ##Modules and require()
 ##NPM

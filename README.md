@@ -67,6 +67,7 @@ nvm use 0.10 --default
 Now anytime your terminal loads, node should be included and ready to roll!
 
 ###Windows
+*Installation Instructions for Windows needed. Contributions welcome!*
 ##Getting your hands dirty
 ***Congratulations!*** You now have node running on your system! You can now develop Node.js modules and applications as you please. At this point, we will be covering the course material outlined in the NodeSchool curriculum. 
 

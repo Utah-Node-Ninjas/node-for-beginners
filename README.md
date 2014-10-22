@@ -116,7 +116,7 @@ Also keep in mind that it is idiomatic to check for errors and do early-returns 
 
 ##NPM
 
-Node Package Manager (NPM) is a NodeJS dependency manager. As its name would imply, you can use it to install node programs. Also, if you use it in development, it makes it easier to specify and link dependencies.
+Node Package Manager (NPM) is a NodeJS dependency manager. You can use it to install and manage dependencies on third-party modules, or modules that have been written and published by other authors. NPM also allows you to publish your own modules.
 
 ####Install
 

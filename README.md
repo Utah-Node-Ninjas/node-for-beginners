@@ -2,7 +2,9 @@
 
 #node-for-beginners
 
-An intro to Node.js Programming for absolute beginners, used on hack nights at Utah Node Ninjas meetup group. Every other wednesday at Utah Node Ninjas, we provide a free introduction to Node.js, taught by our organizers. This will serve a syllabus of sorts, also provide working examples of different concepts in Node.js. If you have any questions, please feel free to reach out to any of the organizers of the group, and we can assist with any issues. 
+*This is an official chapter of [NodeSchool.io](http://nodeschool.io). You can find the official repository [here](https://github.com/nodeschool/utahnodeninjas).*
+
+An intro to Node.js Programming for absolute beginners, in connection with NodeSchool.io and our biweekly hack nights at Utah Node Ninjas meetup group. Every other wednesday at Utah Node Ninjas, we provide a free introduction to Node.js, taught by our organizers. This will serve a syllabus of sorts. If you have any questions, please feel free to reach out to any of the organizers of the group, and we can assist with any issues. 
 
 ##Working Code
 
@@ -65,7 +67,14 @@ nvm use 0.10 --default
 Now anytime your terminal loads, node should be included and ready to roll!
 
 ###Windows
-##Direct Runtime
-##Modules and require()
-##NPM
-##Your First App
+##Getting your hands dirty
+***Congratulations!*** You now have node running on your system! You can now develop Node.js modules and applications as you please. At this point, we will be covering the course material outlined in the NodeSchool curriculum. 
+
+To install the coursework, run the following command:
+```bash
+npm install -g learnyounode
+```
+To start the coursework, type in your console:
+```bash
+youlearnnode
+```

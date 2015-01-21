@@ -75,7 +75,7 @@ npm install -g learnyounode
 ```
 To start the coursework, type in your console:
 ```bash
-youlearnnode
+learnyounode
 ```
 
 There are a couple things that are not covered by the coursework. Those are listed below. 

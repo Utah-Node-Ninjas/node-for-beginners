@@ -63,7 +63,41 @@ nvm use 0.10 --default
 Now anytime your terminal loads, node should be included and ready to roll!
 
 ###Windows
-*Installation Instructions for Windows needed. Contributions welcome!*
+
+Install node.js (includes npm):
+
+* Download and launch the current stable [node.js installer](http://nodejs.org/download/).
+    * If you are in doubt of which version to choose, pick the *"32-bit Windows Installer (.msi)"*.
+* Step through the installation wizard to complete the installation
+
+    * Mark the checkbox to accept the license agreement, but otherwise accept all the defaults
+
+Install Git:
+
+Git is a version control system, which tracks changes to files. It is the foundation of [github](https://github.com/).
+Although, not technically required for this lesson, it provides a command line shell (Git Bash) which allows the
+execution of some of the same commands on Mac, Linux and Windows.  This command line shell that will be installed
+along with git is based on [Minimalist GNU for Windows (MinGW)](http://www.mingw.org/).
+
+* Download and launch the current stable [git installer](http://git-scm.com/download/win)
+    * Step through the installation wizard to complete the installation, accepting all the defaults
+
+Test your windows installation:
+
+* launch the Git Bash
+    * Type "Git Bash" into the start menu search if you don't see a shortcut
+* At the $ prompt, enter the following:
+
+```
+node -v
+```
+You should see a number such as `v0.10.35`
+
+```
+npm -v
+```
+You should see a number such as `1.4.28`
+
 
 A simple installation for Windows was given here to get you up and running fast.
 

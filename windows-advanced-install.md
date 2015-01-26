@@ -23,7 +23,7 @@ you will need them. For example, [bcrypt](https://www.npmjs.com/package/bcrypt) 
 ## Installing NVM-Windows
 The [official version of nvm](https://github.chttps://github.com/creationix/nvmom/creationix/nvm) is not technically available on windows.
 However, there is an independently created version manager called [nvm-windows](https://github.com/coreybutler/nvm-windows "NVM for Windows").
-Realise that some feature of nvm may not be available on nvm-windows since they are two entirely different projects.
+Realize that some features of nvm may not be available on nvm-windows, since they are two entirely different projects.
 
 Follow their instructions for installation, taking note of the following:
 > I recommend, that you install NVM to a root path like `` c:/nvm `` instead of installing in the roaming app folder. You can keep the NODEJS in the "Program Files" directory... If you desire.
@@ -54,8 +54,8 @@ npm install npm
 This step will set NPM to be installed here, along with all global node modules,
 under this directory that is held within the ``System variables`` *Path* variable.
 
-If you have two versions of Python `` 2.7 and 3.2 `` your installed Node's NPM
-can give you a Python version error.  To solve this you can execute
+If you have two versions of Python `` 2.7 and 3.2 ``, npm may give you a
+Python version error.  To solve this issue, you can execute
 ``` npm config set python x:/path_to_python/python.exe ```
 or if Python27 is available in the *Path* variable you can use
 ``` npm config set python python27 ```
